@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Yinghuan Xie's personal website is under construction. Research, publications, and projects will be available here soon.">
+  <meta name="theme-color" content="#092c38">
+  <title>Yinghuan Xie — Website under construction</title>
+  <style>
+    :root { color-scheme: dark; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      min-height: 100svh;
+      background: #092c38;
+      color: #f3f6f3;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .page {
+      position: relative;
+      isolation: isolate;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      min-height: 100svh;
+      overflow: hidden;
+      background: radial-gradient(ellipse at 90% 80%, #146170 0%, transparent 60%);
+    }
+    header, main, footer { position: relative; z-index: 1; }
+    header {
+      padding: 36px clamp(24px, 7vw, 112px);
+      border-bottom: 1px solid #ffffff18;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+    }
+    main {
+      width: min(100%, 1040px);
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 84px clamp(24px, 7vw, 112px) 110px;
+    }
+    .status {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 30px;
+      color: #b1d9d8;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+    }
+    .status::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #9bd7cb;
+      box-shadow: 0 0 0 5px #9bd7cb12;
+    }
+    h1 {
+      margin: 0 0 28px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(46px, 6.3vw, 88px);
+      font-weight: 400;
+      line-height: 1.08;
+      letter-spacing: -.035em;
+    }
+    .intro {
+      max-width: 440px;
+      margin: 0;
+      color: #c4d5d9;
+      font-size: 17px;
+      line-height: 1.85;
+    }
+    .chinese {
+      margin: 26px 0 0;
+      color: #b1c9cc;
+      font-size: 14px;
+      line-height: 1.9;
+      letter-spacing: .08em;
+    }
+    footer {
+      padding: 24px clamp(24px, 7vw, 112px);
+      border-top: 1px solid #ffffff18;
+      color: #b1c9cc;
+      font-size: 12px;
+      line-height: 1.7;
+    }
+    .ocean {
+      position: absolute;
+      z-index: 0;
+      right: -14%;
+      bottom: 24px;
+      width: max(950px, 115vw);
+      height: 55%;
+      opacity: .34;
+      pointer-events: none;
+    }
+    @media (max-width: 600px) {
+      header { padding-top: 26px; padding-bottom: 26px; }
+      main { padding-top: 64px; padding-bottom: 82px; }
+      .intro { font-size: 16px; }
+      .ocean { right: -110%; opacity: .22; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>Yinghuan Xie</header>
+    <main>
+      <p class="status">Under construction</p>
+      <h1>A new home<br>for my work.</h1>
+      <p class="intro">My personal website is taking shape.<br>Research, publications, and projects will be available here soon.</p>
+      <p class="chinese" lang="zh-CN">个人网站正在建设中，敬请期待。</p>
+    </main>
+    <svg class="ocean" viewBox="0 0 1400 550" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+      <g fill="none" stroke="#7bc3c9" stroke-width="1">
+        <path d="M-100 150 C250 450 440 -90 850 180 S1240 360 1500 100"/>
+        <path d="M-100 173 C250 473 440 -67 850 203 S1240 383 1500 123"/>
+        <path d="M-100 196 C250 496 440 -44 850 226 S1240 406 1500 146"/>
+        <path d="M-100 219 C250 519 440 -21 850 249 S1240 429 1500 169"/>
+        <path d="M-100 242 C250 542 440 2 850 272 S1240 452 1500 192"/>
+        <path d="M-100 265 C250 565 440 25 850 295 S1240 475 1500 215"/>
+        <path d="M-100 288 C250 588 440 48 850 318 S1240 498 1500 238"/>
+        <path d="M-100 311 C250 611 440 71 850 341 S1240 521 1500 261"/>
+        <path d="M-100 334 C250 634 440 94 850 364 S1240 544 1500 284"/>
+        <path d="M-100 357 C250 657 440 117 850 387 S1240 567 1500 307"/>
+        <path d="M-100 380 C250 680 440 140 850 410 S1240 590 1500 330"/>
+      </g>
+    </svg>
+    <footer>Thank you for visiting. Please check back soon.</footer>
+  </div>
+</body>
+</html>
